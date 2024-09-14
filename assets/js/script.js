@@ -12,6 +12,9 @@ const customCursor = document.querySelector(".custom-cursor");
 const customCursorDot = document.querySelector(".custom-cursor-dot");
 
 const headerStickyHandler = () => {
+  goTopButton.style.background = `conic-gradient(#f65713 ${
+    (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
+  }%, transparent 0)`;
   if (window.scrollY > 180) {
     header.classList.add("header-sticky");
     goTopButton.classList.remove("hide");
