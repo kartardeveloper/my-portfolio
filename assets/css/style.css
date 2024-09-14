@@ -76,6 +76,10 @@ body {
   scrollbar-width: none;
 }
 
+body:has(.mobile-menu__visible) {
+  overflow: hidden;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
