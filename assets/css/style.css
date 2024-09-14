@@ -686,7 +686,7 @@ a * {
   position: relative;
 }
 
-.accordion-heading::after {
+/* .accordion-heading::after {
   content: "+";
   position: absolute;
   top: 50%;
@@ -694,17 +694,17 @@ a * {
   transform: translateY(-50%);
   font-size: 30px;
   font-weight: 400;
-}
+} */
 
 .accordion-active .accordion-heading {
   background-color: var(--primary-color);
 }
 
-.accordion-active .accordion-heading::after {
+/* .accordion-active .accordion-heading::after {
   content: "-";
   margin-top: -3px;
   font-size: 35px;
-}
+} */
 
 .accordion-data__wrapper {
   height: 0;

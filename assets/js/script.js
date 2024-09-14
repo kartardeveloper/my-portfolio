@@ -38,14 +38,14 @@ headerMenuItems.forEach((headerMenuItem) => {
   });
 });
 
-accordionButtons.forEach((accordionButton) => {
-  accordionButton.addEventListener("click", (e) => {
-    accordionButtons.forEach((accordionButton) => {
-      accordionButton.parentElement.classList.remove("accordion-active");
-    });
-    e.currentTarget.parentElement.classList.toggle("accordion-active");
-  });
-});
+// accordionButtons.forEach((accordionButton) => {
+//   accordionButton.addEventListener("click", (e) => {
+//     accordionButtons.forEach((accordionButton) => {
+//       accordionButton.parentElement.classList.remove("accordion-active");
+//     });
+//     e.currentTarget.parentElement.classList.toggle("accordion-active");
+//   });
+// });
 
 goTopButton &&
   goTopButton.addEventListener("click", (e) => {
